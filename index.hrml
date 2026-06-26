@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Nail Architecth</title>
+
+<style>
+body{
+margin:0;
+font-family:Arial,sans-serif;
+background:#fff;
+color:#444;
+}
+
+header{
+background:#F9DCE8;
+padding:60px;
+text-align:center;
+}
+
+h1{
+font-size:50px;
+color:#C9A227;
+}
+
+h2{
+text-align:center;
+margin-top:40px;
+}
+
+.btn{
+background:#C9A227;
+color:white;
+padding:15px 35px;
+border:none;
+border-radius:30px;
+cursor:pointer;
+font-size:18px;
+}
+
+section{
+padding:40px;
+max-width:900px;
+margin:auto;
+}
+
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+}
+
+.card{
+background:#FCEEF4;
+padding:20px;
+border-radius:15px;
+text-align:center;
+box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+form{
+display:grid;
+gap:15px;
+}
+
+input,select,textarea{
+padding:12px;
+border:1px solid #ddd;
+border-radius:10px;
+}
+
+footer{
+background:#F9DCE8;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>The Nail Architecth</h1>
+<p>Luxury Nails • Acrylics • Gel-X • Nail Art</p>
+<button class="btn">Book Now</button>
+</header>
+
+<section>
+
+<h2>Services</h2>
+
+<div class="services">
+
+<div class="card">
+<h3>Acrylic Full Set</h3>
+<p>Starting at $55</p>
+</div>
+
+<div class="card">
+<h3>Gel-X</h3>
+<p>Starting at $60</p>
+</div>
+
+<div class="card">
+<h3>Custom Nail Art</h3>
+<p>From $15+</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Book Your Appointment</h2>
+
+<form action="#" method="post">
+
+<input type="text" placeholder="First Name" required>
+
+<input type="text" placeholder="Last Name" required>
+
+<input type="tel" placeholder="Phone Number" required>
+
+<input type="email" placeholder="Email" required>
+
+<input type="date" required>
+
+<input type="time" required>
+
+<select required>
+<option>Select Service</option>
+<option>Acrylic Full Set</option>
+<option>Gel-X</option>
+<option>Fill</option>
+<option>Nail Art</option>
+</select>
+
+<textarea placeholder="Notes"></textarea>
+
+<button class="btn">Submit Booking</button>
+
+</form>
+
+</section>
+
+<footer>
+
+<p>© 2026 The Nail Architecth</p>
+
+<p>Email: thenailacrhitect@gmail.com</p>
+
+</footer>
+
+</body>
+</html>
